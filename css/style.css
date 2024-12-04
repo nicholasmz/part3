@@ -1,0 +1,105 @@
+
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #FF5722; 
+    --background-color: #f9f9f9; 
+    --text-color: #333333; 
+    --accent-color: #2980b9; 
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+
+header nav {
+    background-color: var(--primary-color);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header nav h1 {
+    color: white;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: var(--accent-color);
+}
+
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+section h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.5rem;
+}
+
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+canvas {
+    max-width: 100%;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 0.9rem;
+    border-top: 1px solid var(--accent-color);
+}
+
+footer p {
+    margin: 0;
+}

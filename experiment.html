@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment Page</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+   
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Experiment Page</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="experiment.html">Experiment</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>OpenStreetMap Integration</h2>
+            
+            <div id="map" style="height: 400px; width: 100%; border: 1px solid #ddd;"></div>
+        </section>
+        <section>
+            <h2>Chart.js Example</h2>
+            
+            <canvas id="myChart"></canvas>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Experiment Page</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
